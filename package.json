@@ -1,0 +1,20 @@
+{
+  "name": "daily-coding-problem",
+  "version": "1.0.0",
+  "description": "My solutions for the Daily Coding Problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welingtonms/daily-coding-problem.git"
+  },
+  "author": "Welington Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/welingtonms/daily-coding-problem/issues"
+  },
+  "homepage": "https://github.com/welingtonms/daily-coding-problem#readme",
+  "dependencies": {}
+}
