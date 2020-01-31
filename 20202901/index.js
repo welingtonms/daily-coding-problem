@@ -24,8 +24,8 @@ function addup(array, k) {
 module.exports = function() {
   let stream;
   try {
-    stream = fs.createWriteStream(__dirname + '/output.txt', { flags: 'a' });
-    const lines = reader(__dirname + '/input.txt');
+    stream = fs.createWriteStream(__dirname + '/out', { flags: 'a' });
+    const lines = reader(__dirname + '/in');
 
     for (let i = 0; i < lines.length; i++) {
       const numbers = lines[i].split(/\s/);

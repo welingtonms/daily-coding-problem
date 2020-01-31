@@ -4,6 +4,7 @@
   "description": "My solutions for the Daily Coding Problem",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,14 @@
     "url": "https://github.com/welingtonms/daily-coding-problem/issues"
   },
   "homepage": "https://github.com/welingtonms/daily-coding-problem#readme",
-  "dependencies": {}
+  "dependencies": {
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "^2.0.2"
+  }
 }

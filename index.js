@@ -1,3 +1,3 @@
-const solution = require('./20202901');
+import solution from './20203001';
 
 solution();
